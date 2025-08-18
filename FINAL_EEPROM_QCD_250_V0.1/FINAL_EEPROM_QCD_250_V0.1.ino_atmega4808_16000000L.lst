@@ -1,0 +1,873 @@
+
+C:\Users\SIDDHE~1.HAD\AppData\Local\Temp\arduino_build_845372/FINAL_EEPROM_QCD_250_V0.1.ino.elf:     file format elf32-avr
+
+
+Disassembly of section .text:
+
+00000200 <__vectors>:
+__vectors():
+../../../../crt1/gcrt1.S:61
+ 200:	47 c0       	rjmp	.+142    	; 0x290 <__ctors_end>
+ 202:	00 00       	nop
+../../../../crt1/gcrt1.S:67
+ 204:	55 c0       	rjmp	.+170    	; 0x2b0 <__bad_interrupt>
+ 206:	00 00       	nop
+../../../../crt1/gcrt1.S:68
+ 208:	53 c0       	rjmp	.+166    	; 0x2b0 <__bad_interrupt>
+ 20a:	00 00       	nop
+../../../../crt1/gcrt1.S:69
+ 20c:	51 c0       	rjmp	.+162    	; 0x2b0 <__bad_interrupt>
+ 20e:	00 00       	nop
+../../../../crt1/gcrt1.S:70
+ 210:	4f c0       	rjmp	.+158    	; 0x2b0 <__bad_interrupt>
+ 212:	00 00       	nop
+../../../../crt1/gcrt1.S:71
+ 214:	4d c0       	rjmp	.+154    	; 0x2b0 <__bad_interrupt>
+ 216:	00 00       	nop
+../../../../crt1/gcrt1.S:72
+ 218:	4b c0       	rjmp	.+150    	; 0x2b0 <__bad_interrupt>
+ 21a:	00 00       	nop
+../../../../crt1/gcrt1.S:73
+ 21c:	49 c0       	rjmp	.+146    	; 0x2b0 <__bad_interrupt>
+ 21e:	00 00       	nop
+../../../../crt1/gcrt1.S:74
+ 220:	47 c0       	rjmp	.+142    	; 0x2b0 <__bad_interrupt>
+ 222:	00 00       	nop
+../../../../crt1/gcrt1.S:75
+ 224:	45 c0       	rjmp	.+138    	; 0x2b0 <__bad_interrupt>
+ 226:	00 00       	nop
+../../../../crt1/gcrt1.S:76
+ 228:	43 c0       	rjmp	.+134    	; 0x2b0 <__bad_interrupt>
+ 22a:	00 00       	nop
+../../../../crt1/gcrt1.S:77
+ 22c:	41 c0       	rjmp	.+130    	; 0x2b0 <__bad_interrupt>
+ 22e:	00 00       	nop
+../../../../crt1/gcrt1.S:78
+ 230:	3f c0       	rjmp	.+126    	; 0x2b0 <__bad_interrupt>
+ 232:	00 00       	nop
+../../../../crt1/gcrt1.S:79
+ 234:	3d c0       	rjmp	.+122    	; 0x2b0 <__bad_interrupt>
+ 236:	00 00       	nop
+../../../../crt1/gcrt1.S:80
+ 238:	3b c0       	rjmp	.+118    	; 0x2b0 <__bad_interrupt>
+ 23a:	00 00       	nop
+../../../../crt1/gcrt1.S:81
+ 23c:	39 c0       	rjmp	.+114    	; 0x2b0 <__bad_interrupt>
+ 23e:	00 00       	nop
+../../../../crt1/gcrt1.S:82
+ 240:	37 c0       	rjmp	.+110    	; 0x2b0 <__bad_interrupt>
+ 242:	00 00       	nop
+../../../../crt1/gcrt1.S:83
+ 244:	35 c0       	rjmp	.+106    	; 0x2b0 <__bad_interrupt>
+ 246:	00 00       	nop
+../../../../crt1/gcrt1.S:84
+ 248:	33 c0       	rjmp	.+102    	; 0x2b0 <__bad_interrupt>
+ 24a:	00 00       	nop
+../../../../crt1/gcrt1.S:85
+ 24c:	31 c0       	rjmp	.+98     	; 0x2b0 <__bad_interrupt>
+ 24e:	00 00       	nop
+../../../../crt1/gcrt1.S:86
+ 250:	2f c0       	rjmp	.+94     	; 0x2b0 <__bad_interrupt>
+ 252:	00 00       	nop
+../../../../crt1/gcrt1.S:87
+ 254:	2d c0       	rjmp	.+90     	; 0x2b0 <__bad_interrupt>
+ 256:	00 00       	nop
+../../../../crt1/gcrt1.S:88
+ 258:	2b c0       	rjmp	.+86     	; 0x2b0 <__bad_interrupt>
+ 25a:	00 00       	nop
+../../../../crt1/gcrt1.S:89
+ 25c:	29 c0       	rjmp	.+82     	; 0x2b0 <__bad_interrupt>
+ 25e:	00 00       	nop
+../../../../crt1/gcrt1.S:90
+ 260:	27 c0       	rjmp	.+78     	; 0x2b0 <__bad_interrupt>
+ 262:	00 00       	nop
+../../../../crt1/gcrt1.S:91
+ 264:	84 c0       	rjmp	.+264    	; 0x36e <__vector_25>
+ 266:	00 00       	nop
+../../../../crt1/gcrt1.S:92
+ 268:	23 c0       	rjmp	.+70     	; 0x2b0 <__bad_interrupt>
+ 26a:	00 00       	nop
+../../../../crt1/gcrt1.S:93
+ 26c:	21 c0       	rjmp	.+66     	; 0x2b0 <__bad_interrupt>
+ 26e:	00 00       	nop
+../../../../crt1/gcrt1.S:94
+ 270:	1f c0       	rjmp	.+62     	; 0x2b0 <__bad_interrupt>
+ 272:	00 00       	nop
+../../../../crt1/gcrt1.S:95
+ 274:	1d c0       	rjmp	.+58     	; 0x2b0 <__bad_interrupt>
+ 276:	00 00       	nop
+../../../../crt1/gcrt1.S:96
+ 278:	1b c0       	rjmp	.+54     	; 0x2b0 <__bad_interrupt>
+ 27a:	00 00       	nop
+../../../../crt1/gcrt1.S:97
+ 27c:	19 c0       	rjmp	.+50     	; 0x2b0 <__bad_interrupt>
+ 27e:	00 00       	nop
+../../../../crt1/gcrt1.S:98
+ 280:	17 c0       	rjmp	.+46     	; 0x2b0 <__bad_interrupt>
+ 282:	00 00       	nop
+../../../../crt1/gcrt1.S:99
+ 284:	15 c0       	rjmp	.+42     	; 0x2b0 <__bad_interrupt>
+ 286:	00 00       	nop
+../../../../crt1/gcrt1.S:100
+ 288:	13 c0       	rjmp	.+38     	; 0x2b0 <__bad_interrupt>
+ 28a:	00 00       	nop
+../../../../crt1/gcrt1.S:101
+ 28c:	11 c0       	rjmp	.+34     	; 0x2b0 <__bad_interrupt>
+	...
+
+00000290 <__ctors_end>:
+__trampolines_start():
+../../../../crt1/gcrt1.S:230
+ 290:	11 24       	eor	r1, r1
+../../../../crt1/gcrt1.S:231
+ 292:	1f be       	out	0x3f, r1	; 63
+../../../../crt1/gcrt1.S:232
+ 294:	cf ef       	ldi	r28, 0xFF	; 255
+../../../../crt1/gcrt1.S:234
+ 296:	cd bf       	out	0x3d, r28	; 61
+../../../../crt1/gcrt1.S:236
+ 298:	df e3       	ldi	r29, 0x3F	; 63
+../../../../crt1/gcrt1.S:237
+ 29a:	de bf       	out	0x3e, r29	; 62
+
+0000029c <__do_clear_bss>:
+__do_clear_bss():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2441
+ 29c:	28 e2       	ldi	r18, 0x28	; 40
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2442
+ 29e:	a0 e0       	ldi	r26, 0x00	; 0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2443
+ 2a0:	b8 e2       	ldi	r27, 0x28	; 40
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2444
+ 2a2:	01 c0       	rjmp	.+2      	; 0x2a6 <.do_clear_bss_start>
+
+000002a4 <.do_clear_bss_loop>:
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2446
+ 2a4:	1d 92       	st	X+, r1
+
+000002a6 <.do_clear_bss_start>:
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2448
+ 2a6:	a4 30       	cpi	r26, 0x04	; 4
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2449
+ 2a8:	b2 07       	cpc	r27, r18
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2450
+ 2aa:	e1 f7       	brne	.-8      	; 0x2a4 <.do_clear_bss_loop>
+.do_clear_bss_start():
+../../../../crt1/gcrt1.S:314
+ 2ac:	88 d0       	rcall	.+272    	; 0x3be <main>
+../../../../crt1/gcrt1.S:315
+ 2ae:	3f c1       	rjmp	.+638    	; 0x52e <_exit>
+
+000002b0 <__bad_interrupt>:
+__vector_22():
+ 2b0:	a7 cf       	rjmp	.-178    	; 0x200 <__vectors>
+
+000002b2 <digitalWrite.part.2.constprop.5>:
+digitalWrite.part.2.constprop.5():
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring_digital.c:153
+
+  /* Get port */
+  PORT_t *port = digitalPinToPortStruct(pin);
+
+  /* Output direction */
+  if (port->DIR & bit_mask)
+ 2b2:	90 91 a0 04 	lds	r25, 0x04A0	; 0x8004a0 <__TEXT_REGION_LENGTH__+0x7f44a0>
+ 2b6:	93 ff       	sbrs	r25, 3
+ 2b8:	0a c0       	rjmp	.+20     	; 0x2ce <digitalWrite.part.2.constprop.5+0x1c>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring_digital.c:156
+  {
+    /* Set output to value */
+    if (val == LOW)
+ 2ba:	81 11       	cpse	r24, r1
+ 2bc:	04 c0       	rjmp	.+8      	; 0x2c6 <digitalWrite.part.2.constprop.5+0x14>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring_digital.c:158
+    { /* If LOW */
+      port->OUTCLR = bit_mask;
+ 2be:	88 e0       	ldi	r24, 0x08	; 8
+ 2c0:	80 93 a6 04 	sts	0x04A6, r24	; 0x8004a6 <__TEXT_REGION_LENGTH__+0x7f44a6>
+ 2c4:	08 95       	ret
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring_digital.c:167
+      port->OUTTGL = bit_mask;
+      /* If HIGH OR  > TOGGLE  */
+    }
+    else
+    {
+      port->OUTSET = bit_mask;
+ 2c6:	88 e0       	ldi	r24, 0x08	; 8
+ 2c8:	80 93 a5 04 	sts	0x04A5, r24	; 0x8004a5 <__TEXT_REGION_LENGTH__+0x7f44a5>
+ 2cc:	08 95       	ret
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring_digital.c:186
+
+    /* Calculate where pin control register is */
+    volatile uint8_t *pin_ctrl_reg = getPINnCTRLregister(port, bit_pos);
+
+    /* Save system status and disable interrupts */
+    uint8_t status = SREG;
+ 2ce:	9f b7       	in	r25, 0x3f	; 63
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring_digital.c:187
+    cli();
+ 2d0:	f8 94       	cli
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring_digital.c:189
+
+    if (val == LOW)
+ 2d2:	81 11       	cpse	r24, r1
+ 2d4:	07 c0       	rjmp	.+14     	; 0x2e4 <digitalWrite.part.2.constprop.5+0x32>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring_digital.c:192
+    {
+      /* Disable pullup */
+      *pin_ctrl_reg &= ~PORT_PULLUPEN_bm;
+ 2d6:	80 91 b3 04 	lds	r24, 0x04B3	; 0x8004b3 <__TEXT_REGION_LENGTH__+0x7f44b3>
+ 2da:	87 7f       	andi	r24, 0xF7	; 247
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring_digital.c:197
+    }
+    else
+    {
+      /* Enable pull-up */
+      *pin_ctrl_reg |= PORT_PULLUPEN_bm;
+ 2dc:	80 93 b3 04 	sts	0x04B3, r24	; 0x8004b3 <__TEXT_REGION_LENGTH__+0x7f44b3>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring_digital.c:201
+    }
+
+    /* Restore system status */
+    SREG = status;
+ 2e0:	9f bf       	out	0x3f, r25	; 63
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring_digital.c:203
+  }
+}
+ 2e2:	08 95       	ret
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring_digital.c:197
+      *pin_ctrl_reg &= ~PORT_PULLUPEN_bm;
+    }
+    else
+    {
+      /* Enable pull-up */
+      *pin_ctrl_reg |= PORT_PULLUPEN_bm;
+ 2e4:	80 91 b3 04 	lds	r24, 0x04B3	; 0x8004b3 <__TEXT_REGION_LENGTH__+0x7f44b3>
+ 2e8:	88 60       	ori	r24, 0x08	; 8
+ 2ea:	f8 cf       	rjmp	.-16     	; 0x2dc <digitalWrite.part.2.constprop.5+0x2a>
+
+000002ec <micros>:
+micros():
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:103
+{
+  uint32_t m;
+  uint16_t t;
+
+  /* Save current state and disable interrupts */
+  uint8_t status = SREG;
+ 2ec:	8f b7       	in	r24, 0x3f	; 63
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:104
+  cli();
+ 2ee:	f8 94       	cli
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:107
+
+  /* Get current number of millis (i.e. overflows) and timer count */
+  m = timer_millis;
+ 2f0:	20 91 00 28 	lds	r18, 0x2800	; 0x802800 <__DATA_REGION_ORIGIN__>
+ 2f4:	30 91 01 28 	lds	r19, 0x2801	; 0x802801 <__DATA_REGION_ORIGIN__+0x1>
+ 2f8:	40 91 02 28 	lds	r20, 0x2802	; 0x802802 <__DATA_REGION_ORIGIN__+0x2>
+ 2fc:	50 91 03 28 	lds	r21, 0x2803	; 0x802803 <__DATA_REGION_ORIGIN__+0x3>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:108
+  t = _timer->CNT;
+ 300:	e0 91 aa 0a 	lds	r30, 0x0AAA	; 0x800aaa <__TEXT_REGION_LENGTH__+0x7f4aaa>
+ 304:	f0 91 ab 0a 	lds	r31, 0x0AAB	; 0x800aab <__TEXT_REGION_LENGTH__+0x7f4aab>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:112
+
+  /* If the timer overflow flag is raised, we just missed it,
+  increment to account for it, & read new ticks */
+  if (_timer->INTFLAGS & TCB_CAPT_bm)
+ 308:	90 91 a6 0a 	lds	r25, 0x0AA6	; 0x800aa6 <__TEXT_REGION_LENGTH__+0x7f4aa6>
+ 30c:	90 ff       	sbrs	r25, 0
+ 30e:	08 c0       	rjmp	.+16     	; 0x320 <micros+0x34>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:114
+  {
+    m++;
+ 310:	2f 5f       	subi	r18, 0xFF	; 255
+ 312:	3f 4f       	sbci	r19, 0xFF	; 255
+ 314:	4f 4f       	sbci	r20, 0xFF	; 255
+ 316:	5f 4f       	sbci	r21, 0xFF	; 255
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:115
+    t = _timer->CNT;
+ 318:	e0 91 aa 0a 	lds	r30, 0x0AAA	; 0x800aaa <__TEXT_REGION_LENGTH__+0x7f4aaa>
+ 31c:	f0 91 ab 0a 	lds	r31, 0x0AAB	; 0x800aab <__TEXT_REGION_LENGTH__+0x7f4aab>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:119
+  }
+
+  // Restore SREG
+  SREG = status;
+ 320:	8f bf       	out	0x3f, r24	; 63
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:125
+
+#if (F_CPU == 20000000L)
+  t = t >> 4;
+  return m * 1000 + (t - (t >> 2) + (t >> 4) - (t >> 6));
+#elif (F_CPU == 16000000L)
+  return m * 1000 + (t >> 4);
+ 322:	a8 ee       	ldi	r26, 0xE8	; 232
+ 324:	b3 e0       	ldi	r27, 0x03	; 3
+ 326:	ea d0       	rcall	.+468    	; 0x4fc <__muluhisi3>
+ 328:	24 e0       	ldi	r18, 0x04	; 4
+ 32a:	f6 95       	lsr	r31
+ 32c:	e7 95       	ror	r30
+ 32e:	2a 95       	dec	r18
+ 330:	e1 f7       	brne	.-8      	; 0x32a <micros+0x3e>
+ 332:	6e 0f       	add	r22, r30
+ 334:	7f 1f       	adc	r23, r31
+ 336:	81 1d       	adc	r24, r1
+ 338:	91 1d       	adc	r25, r1
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:143
+#elif (F_CPU == 1000000L)
+  return m * 1000 + t;
+#else
+  return 0;
+#endif
+}
+ 33a:	08 95       	ret
+
+0000033c <nvm_write_byte(unsigned int, unsigned char)>:
+_ZL14nvm_write_bytejh():
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\libraries\EEPROM\src/EEPROM.h:37
+
+#define nvm_read_byte(idx) *(uint8_t *)((idx & 0xFF) | ((idx & 0x100) ? USER_SIGNATURES_START : EEPROM_START))
+
+static void nvm_write_byte(uint16_t idx, uint8_t dat)
+{
+  *(uint8_t *)((idx & 0xFF) | ((idx & 0x100) ? USER_SIGNATURES_START : EEPROM_START)) = dat;
+ 33c:	fc 01       	movw	r30, r24
+ 33e:	ff 27       	eor	r31, r31
+ 340:	90 fd       	sbrc	r25, 0
+ 342:	12 c0       	rjmp	.+36     	; 0x368 <nvm_write_byte(unsigned int, unsigned char)+0x2c>
+ 344:	80 e0       	ldi	r24, 0x00	; 0
+ 346:	94 e1       	ldi	r25, 0x14	; 20
+ 348:	e8 2b       	or	r30, r24
+ 34a:	f9 2b       	or	r31, r25
+ 34c:	60 83       	st	Z, r22
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\libraries\EEPROM\src/EEPROM.h:38
+  uint8_t oldSREG = SREG;
+ 34e:	8f b7       	in	r24, 0x3f	; 63
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\libraries\EEPROM\src/EEPROM.h:39
+  cli();
+ 350:	f8 94       	cli
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\libraries\EEPROM\src/EEPROM.h:40
+  _PROTECTED_WRITE_SPM(NVMCTRL.CTRLA, NVMCTRL_CMD_PAGEERASEWRITE_gc);
+ 352:	9d e9       	ldi	r25, 0x9D	; 157
+ 354:	23 e0       	ldi	r18, 0x03	; 3
+ 356:	94 bf       	out	0x34, r25	; 52
+ 358:	20 93 00 10 	sts	0x1000, r18	; 0x801000 <__TEXT_REGION_LENGTH__+0x7f5000>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\libraries\EEPROM\src/EEPROM.h:41
+  SREG = oldSREG;
+ 35c:	8f bf       	out	0x3f, r24	; 63
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\libraries\EEPROM\src/EEPROM.h:42
+  while (NVMCTRL.STATUS & NVMCTRL_EEBUSY_bm)
+ 35e:	80 91 02 10 	lds	r24, 0x1002	; 0x801002 <__TEXT_REGION_LENGTH__+0x7f5002>
+ 362:	81 fd       	sbrc	r24, 1
+ 364:	fc cf       	rjmp	.-8      	; 0x35e <nvm_write_byte(unsigned int, unsigned char)+0x22>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\libraries\EEPROM\src/EEPROM.h:44
+    ;
+}
+ 366:	08 95       	ret
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\libraries\EEPROM\src/EEPROM.h:37
+
+#define nvm_read_byte(idx) *(uint8_t *)((idx & 0xFF) | ((idx & 0x100) ? USER_SIGNATURES_START : EEPROM_START))
+
+static void nvm_write_byte(uint16_t idx, uint8_t dat)
+{
+  *(uint8_t *)((idx & 0xFF) | ((idx & 0x100) ? USER_SIGNATURES_START : EEPROM_START)) = dat;
+ 368:	80 e0       	ldi	r24, 0x00	; 0
+ 36a:	93 e1       	ldi	r25, 0x13	; 19
+ 36c:	ed cf       	rjmp	.-38     	; 0x348 <nvm_write_byte(unsigned int, unsigned char)+0xc>
+
+0000036e <__vector_25>:
+__vector_25():
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:74
+#elif defined(MILLIS_USE_TIMERB2)
+ISR(TCB2_INT_vect)
+#else // fallback or defined(MILLIS_USE_TIMERB3)
+ISR(TCB3_INT_vect)
+#endif
+{
+ 36e:	1f 92       	push	r1
+ 370:	0f 92       	push	r0
+ 372:	0f b6       	in	r0, 0x3f	; 63
+ 374:	0f 92       	push	r0
+ 376:	11 24       	eor	r1, r1
+ 378:	8f 93       	push	r24
+ 37a:	9f 93       	push	r25
+ 37c:	af 93       	push	r26
+ 37e:	bf 93       	push	r27
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:75
+  timer_millis++;
+ 380:	80 91 00 28 	lds	r24, 0x2800	; 0x802800 <__DATA_REGION_ORIGIN__>
+ 384:	90 91 01 28 	lds	r25, 0x2801	; 0x802801 <__DATA_REGION_ORIGIN__+0x1>
+ 388:	a0 91 02 28 	lds	r26, 0x2802	; 0x802802 <__DATA_REGION_ORIGIN__+0x2>
+ 38c:	b0 91 03 28 	lds	r27, 0x2803	; 0x802803 <__DATA_REGION_ORIGIN__+0x3>
+ 390:	01 96       	adiw	r24, 0x01	; 1
+ 392:	a1 1d       	adc	r26, r1
+ 394:	b1 1d       	adc	r27, r1
+ 396:	80 93 00 28 	sts	0x2800, r24	; 0x802800 <__DATA_REGION_ORIGIN__>
+ 39a:	90 93 01 28 	sts	0x2801, r25	; 0x802801 <__DATA_REGION_ORIGIN__+0x1>
+ 39e:	a0 93 02 28 	sts	0x2802, r26	; 0x802802 <__DATA_REGION_ORIGIN__+0x2>
+ 3a2:	b0 93 03 28 	sts	0x2803, r27	; 0x802803 <__DATA_REGION_ORIGIN__+0x3>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:78
+
+  /* Clear flag */
+  _timer->INTFLAGS = TCB_CAPT_bm;
+ 3a6:	81 e0       	ldi	r24, 0x01	; 1
+ 3a8:	80 93 a6 0a 	sts	0x0AA6, r24	; 0x800aa6 <__TEXT_REGION_LENGTH__+0x7f4aa6>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:79
+}
+ 3ac:	bf 91       	pop	r27
+ 3ae:	af 91       	pop	r26
+ 3b0:	9f 91       	pop	r25
+ 3b2:	8f 91       	pop	r24
+ 3b4:	0f 90       	pop	r0
+ 3b6:	0f be       	out	0x3f, r0	; 63
+ 3b8:	0f 90       	pop	r0
+ 3ba:	1f 90       	pop	r1
+ 3bc:	18 95       	reti
+
+000003be <main>:
+main():
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:355
+#if (F_CPU == 20000000L)
+  /* No division on clock */
+  _PROTECTED_WRITE(CLKCTRL_MCLKCTRLB, 0x00);
+#elif (F_CPU == 16000000L)
+  /* No division on clock */
+  _PROTECTED_WRITE(CLKCTRL_MCLKCTRLB, 0x00);
+ 3be:	88 ed       	ldi	r24, 0xD8	; 216
+ 3c0:	90 e0       	ldi	r25, 0x00	; 0
+ 3c2:	84 bf       	out	0x34, r24	; 52
+ 3c4:	90 93 61 00 	sts	0x0061, r25	; 0x800061 <__TEXT_REGION_LENGTH__+0x7f4061>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:388
+  /* ADC clock between 50-200 kHz */
+
+#if (F_CPU >= 20000000L) // 20 MHz / 128 = 156.250 kHz
+  ADC0.CTRLC |= ADC_PRESC_DIV128_gc;
+#elif (F_CPU >= 16000000L) // 16 MHz / 128 = 125 kHz
+  ADC0.CTRLC |= ADC_PRESC_DIV128_gc;
+ 3c8:	80 91 02 06 	lds	r24, 0x0602	; 0x800602 <__TEXT_REGION_LENGTH__+0x7f4602>
+ 3cc:	86 60       	ori	r24, 0x06	; 6
+ 3ce:	80 93 02 06 	sts	0x0602, r24	; 0x800602 <__TEXT_REGION_LENGTH__+0x7f4602>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:402
+#else                      // 128 kHz / 2 = 64 kHz -> This is the closest you can get, the prescaler is 2
+  ADC0.CTRLC |= ADC_PRESC_DIV2_gc;
+#endif
+
+  /* Enable ADC */
+  ADC0.CTRLA |= ADC_ENABLE_bm;
+ 3d2:	80 91 00 06 	lds	r24, 0x0600	; 0x800600 <__TEXT_REGION_LENGTH__+0x7f4600>
+ 3d6:	81 60       	ori	r24, 0x01	; 1
+ 3d8:	80 93 00 06 	sts	0x0600, r24	; 0x800600 <__TEXT_REGION_LENGTH__+0x7f4600>
+analogReference():
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring_analog.c:35
+{
+  switch (mode)
+  {
+    case EXTERNAL:
+    case VDD:
+      ADC0.CTRLC = (ADC0.CTRLC & ~(ADC_REFSEL_gm)) | mode | ADC_SAMPCAP_bm; // Per datasheet, recommended SAMPCAP=1 at ref > 1v - we don't *KNOW* the external reference will be >1v, but it's probably more likely...
+ 3dc:	80 91 02 06 	lds	r24, 0x0602	; 0x800602 <__TEXT_REGION_LENGTH__+0x7f4602>
+ 3e0:	8f 7c       	andi	r24, 0xCF	; 207
+ 3e2:	80 65       	ori	r24, 0x50	; 80
+ 3e4:	80 93 02 06 	sts	0x0602, r24	; 0x800602 <__TEXT_REGION_LENGTH__+0x7f4602>
+main():
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:407
+  analogReference(VDD);
+
+#endif
+
+  PORTMUX.USARTROUTEA = 0;
+ 3e8:	10 92 e2 05 	sts	0x05E2, r1	; 0x8005e2 <__TEXT_REGION_LENGTH__+0x7f45e2>
+setup_timers():
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:446
+void setup_timers()
+{
+  //  TYPE A TIMER
+
+  // PORTMUX setting for TCA (defined in pins_arduino.h)
+  PORTMUX.TCAROUTEA = TCA0_PINS;
+ 3ec:	83 e0       	ldi	r24, 0x03	; 3
+ 3ee:	80 93 e4 05 	sts	0x05E4, r24	; 0x8005e4 <__TEXT_REGION_LENGTH__+0x7f45e4>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:449
+
+  // Enable split mode before anything else
+  TCA0.SPLIT.CTRLD = TCA_SINGLE_SPLITM_bm;
+ 3f2:	81 e0       	ldi	r24, 0x01	; 1
+ 3f4:	80 93 03 0a 	sts	0x0A03, r24	; 0x800a03 <__TEXT_REGION_LENGTH__+0x7f4a03>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:453
+
+  // Period setting, two 8 bit registers
+  TCA0.SPLIT.LPER =
+      TCA0.SPLIT.HPER = PWM_TIMER_PERIOD;
+ 3f8:	9e ef       	ldi	r25, 0xFE	; 254
+ 3fa:	90 93 27 0a 	sts	0x0A27, r25	; 0x800a27 <__TEXT_REGION_LENGTH__+0x7f4a27>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:452
+
+  // Enable split mode before anything else
+  TCA0.SPLIT.CTRLD = TCA_SINGLE_SPLITM_bm;
+
+  // Period setting, two 8 bit registers
+  TCA0.SPLIT.LPER =
+ 3fe:	90 93 26 0a 	sts	0x0A26, r25	; 0x800a26 <__TEXT_REGION_LENGTH__+0x7f4a26>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:461
+  TCA0.SPLIT.LCMP0 =
+      TCA0.SPLIT.LCMP1 =
+          TCA0.SPLIT.LCMP2 =
+              TCA0.SPLIT.HCMP0 =
+                  TCA0.SPLIT.HCMP1 =
+                      TCA0.SPLIT.HCMP2 = PWM_TIMER_COMPARE;
+ 402:	80 e8       	ldi	r24, 0x80	; 128
+ 404:	80 93 2d 0a 	sts	0x0A2D, r24	; 0x800a2d <__TEXT_REGION_LENGTH__+0x7f4a2d>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:460
+  // Default duty 50%, will re-assign in analogWrite()
+  TCA0.SPLIT.LCMP0 =
+      TCA0.SPLIT.LCMP1 =
+          TCA0.SPLIT.LCMP2 =
+              TCA0.SPLIT.HCMP0 =
+                  TCA0.SPLIT.HCMP1 =
+ 408:	80 93 2b 0a 	sts	0x0A2B, r24	; 0x800a2b <__TEXT_REGION_LENGTH__+0x7f4a2b>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:459
+
+  // Default duty 50%, will re-assign in analogWrite()
+  TCA0.SPLIT.LCMP0 =
+      TCA0.SPLIT.LCMP1 =
+          TCA0.SPLIT.LCMP2 =
+              TCA0.SPLIT.HCMP0 =
+ 40c:	80 93 29 0a 	sts	0x0A29, r24	; 0x800a29 <__TEXT_REGION_LENGTH__+0x7f4a29>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:458
+      TCA0.SPLIT.HPER = PWM_TIMER_PERIOD;
+
+  // Default duty 50%, will re-assign in analogWrite()
+  TCA0.SPLIT.LCMP0 =
+      TCA0.SPLIT.LCMP1 =
+          TCA0.SPLIT.LCMP2 =
+ 410:	80 93 2c 0a 	sts	0x0A2C, r24	; 0x800a2c <__TEXT_REGION_LENGTH__+0x7f4a2c>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:457
+  TCA0.SPLIT.LPER =
+      TCA0.SPLIT.HPER = PWM_TIMER_PERIOD;
+
+  // Default duty 50%, will re-assign in analogWrite()
+  TCA0.SPLIT.LCMP0 =
+      TCA0.SPLIT.LCMP1 =
+ 414:	80 93 2a 0a 	sts	0x0A2A, r24	; 0x800a2a <__TEXT_REGION_LENGTH__+0x7f4a2a>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:456
+  // Period setting, two 8 bit registers
+  TCA0.SPLIT.LPER =
+      TCA0.SPLIT.HPER = PWM_TIMER_PERIOD;
+
+  // Default duty 50%, will re-assign in analogWrite()
+  TCA0.SPLIT.LCMP0 =
+ 418:	80 93 28 0a 	sts	0x0A28, r24	; 0x800a28 <__TEXT_REGION_LENGTH__+0x7f4a28>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:474
+#elif F_CPU <= 8000000L
+  // Use DIV16 prescaler (giving 250kHz clocke on 4MHz, 500kHz clock on 8MHz), enable TCA timer
+  TCA0.SPLIT.CTRLA = (TCA_SPLIT_CLKSEL_DIV16_gc) | (TCA_SPLIT_ENABLE_bm);
+#else
+  // Use DIV64 prescaler (giving 250kHz clock on 16MHz), enable TCA timer
+  TCA0.SPLIT.CTRLA = (TCA_SPLIT_CLKSEL_DIV64_gc) | (TCA_SPLIT_ENABLE_bm);
+ 41c:	2b e0       	ldi	r18, 0x0B	; 11
+ 41e:	20 93 00 0a 	sts	0x0A00, r18	; 0x800a00 <__TEXT_REGION_LENGTH__+0x7f4a00>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:480
+#endif
+
+  //  TYPE B TIMERS
+
+  // Set up routing (defined in pins_arduino.h)
+  PORTMUX.TCBROUTEA = 0
+ 422:	10 92 e5 05 	sts	0x05E5, r1	; 0x8005e5 <__TEXT_REGION_LENGTH__+0x7f45e5>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:513
+
+  // Timer B Setup loop for TCB[0:end]
+  do
+  {
+    // 8 bit PWM mode, but do not enable output yet, will do in analogWrite()
+    timer_B->CTRLB = (TCB_CNTMODE_PWM8_gc);
+ 426:	37 e0       	ldi	r19, 0x07	; 7
+ 428:	30 93 81 0a 	sts	0x0A81, r19	; 0x800a81 <__TEXT_REGION_LENGTH__+0x7f4a81>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:516
+
+    // Assign 8-bit period
+    timer_B->CCMPL = PWM_TIMER_PERIOD;
+ 42c:	90 93 8c 0a 	sts	0x0A8C, r25	; 0x800a8c <__TEXT_REGION_LENGTH__+0x7f4a8c>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:519
+
+    // default duty 50%, set when output enabled
+    timer_B->CCMPH = PWM_TIMER_COMPARE;
+ 430:	80 93 8d 0a 	sts	0x0A8D, r24	; 0x800a8d <__TEXT_REGION_LENGTH__+0x7f4a8d>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:523
+
+    // Use TCA clock (250kHz) and enable
+    // (sync update commented out, might try to synchronize later
+    timer_B->CTRLA = (TCB_CLKSEL_CLKTCA_gc)
+ 434:	25 e0       	ldi	r18, 0x05	; 5
+ 436:	20 93 80 0a 	sts	0x0A80, r18	; 0x800a80 <__TEXT_REGION_LENGTH__+0x7f4a80>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:513
+
+  // Timer B Setup loop for TCB[0:end]
+  do
+  {
+    // 8 bit PWM mode, but do not enable output yet, will do in analogWrite()
+    timer_B->CTRLB = (TCB_CNTMODE_PWM8_gc);
+ 43a:	30 93 91 0a 	sts	0x0A91, r19	; 0x800a91 <__TEXT_REGION_LENGTH__+0x7f4a91>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:516
+
+    // Assign 8-bit period
+    timer_B->CCMPL = PWM_TIMER_PERIOD;
+ 43e:	90 93 9c 0a 	sts	0x0A9C, r25	; 0x800a9c <__TEXT_REGION_LENGTH__+0x7f4a9c>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:519
+
+    // default duty 50%, set when output enabled
+    timer_B->CCMPH = PWM_TIMER_COMPARE;
+ 442:	80 93 9d 0a 	sts	0x0A9D, r24	; 0x800a9d <__TEXT_REGION_LENGTH__+0x7f4a9d>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:523
+
+    // Use TCA clock (250kHz) and enable
+    // (sync update commented out, might try to synchronize later
+    timer_B->CTRLA = (TCB_CLKSEL_CLKTCA_gc)
+ 446:	20 93 90 0a 	sts	0x0A90, r18	; 0x800a90 <__TEXT_REGION_LENGTH__+0x7f4a90>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:513
+
+  // Timer B Setup loop for TCB[0:end]
+  do
+  {
+    // 8 bit PWM mode, but do not enable output yet, will do in analogWrite()
+    timer_B->CTRLB = (TCB_CNTMODE_PWM8_gc);
+ 44a:	30 93 a1 0a 	sts	0x0AA1, r19	; 0x800aa1 <__TEXT_REGION_LENGTH__+0x7f4aa1>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:516
+
+    // Assign 8-bit period
+    timer_B->CCMPL = PWM_TIMER_PERIOD;
+ 44e:	90 93 ac 0a 	sts	0x0AAC, r25	; 0x800aac <__TEXT_REGION_LENGTH__+0x7f4aac>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:519
+
+    // default duty 50%, set when output enabled
+    timer_B->CCMPH = PWM_TIMER_COMPARE;
+ 452:	80 93 ad 0a 	sts	0x0AAD, r24	; 0x800aad <__TEXT_REGION_LENGTH__+0x7f4aad>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:523
+
+    // Use TCA clock (250kHz) and enable
+    // (sync update commented out, might try to synchronize later
+    timer_B->CTRLA = (TCB_CLKSEL_CLKTCA_gc)
+ 456:	20 93 a0 0a 	sts	0x0AA0, r18	; 0x800aa0 <__TEXT_REGION_LENGTH__+0x7f4aa0>
+main():
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:416
+  /********************* TCB for system time tracking **************************/
+
+  // BUG: we can compensate for F_CPU by fine tuning value of TIME_TRACKING_TIMER_COUNT
+
+  /* Select vanilla 16 bit periodic interrupt mode */
+  _timer->CTRLB = TCB_CNTMODE_INT_gc;
+ 45a:	10 92 a1 0a 	sts	0x0AA1, r1	; 0x800aa1 <__TEXT_REGION_LENGTH__+0x7f4aa1>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:419
+
+  /* TOP value for overflow every N clock cycles */
+  _timer->CCMP = TIME_TRACKING_TIMER_COUNT - 1;
+ 45e:	8f e7       	ldi	r24, 0x7F	; 127
+ 460:	9e e3       	ldi	r25, 0x3E	; 62
+ 462:	80 93 ac 0a 	sts	0x0AAC, r24	; 0x800aac <__TEXT_REGION_LENGTH__+0x7f4aac>
+ 466:	90 93 ad 0a 	sts	0x0AAD, r25	; 0x800aad <__TEXT_REGION_LENGTH__+0x7f4aad>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:422
+
+  /* Enable TCB interrupt */
+  _timer->INTCTRL |= TCB_CAPT_bm;
+ 46a:	80 91 a5 0a 	lds	r24, 0x0AA5	; 0x800aa5 <__TEXT_REGION_LENGTH__+0x7f4aa5>
+ 46e:	81 60       	ori	r24, 0x01	; 1
+ 470:	80 93 a5 0a 	sts	0x0AA5, r24	; 0x800aa5 <__TEXT_REGION_LENGTH__+0x7f4aa5>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:426
+
+  /* Clock selection is F_CPU/N -- which is independent of TCA */
+#if TIME_TRACKING_TIMER_DIVIDER == 1
+  _timer->CTRLA = TCB_CLKSEL_CLKDIV1_gc; /* F_CPU */
+ 474:	10 92 a0 0a 	sts	0x0AA0, r1	; 0x800aa0 <__TEXT_REGION_LENGTH__+0x7f4aa0>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:434
+#else
+#assert "TIME_TRACKING_TIMER_DIVIDER not supported"
+#endif
+
+  /* Enable & start */
+  _timer->CTRLA |= TCB_ENABLE_bm; /* Keep this last before enabling interrupts to ensure tracking as accurate as possible */
+ 478:	80 91 a0 0a 	lds	r24, 0x0AA0	; 0x800aa0 <__TEXT_REGION_LENGTH__+0x7f4aa0>
+ 47c:	81 60       	ori	r24, 0x01	; 1
+ 47e:	80 93 a0 0a 	sts	0x0AA0, r24	; 0x800aa0 <__TEXT_REGION_LENGTH__+0x7f4aa0>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:438
+
+  /*************************** ENABLE GLOBAL INTERRUPTS *************************/
+
+  sei();
+ 482:	78 94       	sei
+pinMode():
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring_digital.c:43
+    return;
+
+  if (mode == OUTPUT)
+  {
+    /* Configure direction as output */
+    port->DIRSET = bit_mask;
+ 484:	88 e0       	ldi	r24, 0x08	; 8
+ 486:	80 93 a1 04 	sts	0x04A1, r24	; 0x8004a1 <__TEXT_REGION_LENGTH__+0x7f44a1>
+operator=():
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\libraries\EEPROM\src/EEPROM.h:57
+  uint8_t operator*() const { return nvm_read_byte(index); }
+  operator uint8_t() const { return **this; }
+
+  //Assignment/write members.
+  EERef &operator=(const EERef &ref) { return *this = *ref; }
+  EERef &operator=(uint8_t in) { return nvm_write_byte(index, in), *this; }
+ 48a:	60 e0       	ldi	r22, 0x00	; 0
+ 48c:	81 e0       	ldi	r24, 0x01	; 1
+ 48e:	90 e0       	ldi	r25, 0x00	; 0
+ 490:	55 df       	rcall	.-342    	; 0x33c <nvm_write_byte(unsigned int, unsigned char)>
+ 492:	61 e4       	ldi	r22, 0x41	; 65
+ 494:	82 e0       	ldi	r24, 0x02	; 2
+ 496:	90 e0       	ldi	r25, 0x00	; 0
+ 498:	51 df       	rcall	.-350    	; 0x33c <nvm_write_byte(unsigned int, unsigned char)>
+ 49a:	67 e3       	ldi	r22, 0x37	; 55
+ 49c:	8e e0       	ldi	r24, 0x0E	; 14
+ 49e:	90 e0       	ldi	r25, 0x00	; 0
+ 4a0:	4d df       	rcall	.-358    	; 0x33c <nvm_write_byte(unsigned int, unsigned char)>
+ 4a2:	61 e4       	ldi	r22, 0x41	; 65
+ 4a4:	81 e0       	ldi	r24, 0x01	; 1
+ 4a6:	90 e0       	ldi	r25, 0x00	; 0
+ 4a8:	49 df       	rcall	.-366    	; 0x33c <nvm_write_byte(unsigned int, unsigned char)>
+digitalWrite():
+ 4aa:	81 e0       	ldi	r24, 0x01	; 1
+ 4ac:	02 df       	rcall	.-508    	; 0x2b2 <digitalWrite.part.2.constprop.5>
+delay():
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:147
+#endif
+}
+
+void delay(unsigned long ms)
+{
+  uint32_t start_time = micros(), delay_time = 1000 * ms;
+ 4ae:	1e df       	rcall	.-452    	; 0x2ec <micros>
+ 4b0:	6b 01       	movw	r12, r22
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:150
+
+  /* Calculate future time to return */
+  uint32_t return_time = start_time + delay_time;
+ 4b2:	7c 01       	movw	r14, r24
+ 4b4:	20 e4       	ldi	r18, 0x40	; 64
+ 4b6:	c2 0e       	add	r12, r18
+ 4b8:	22 e4       	ldi	r18, 0x42	; 66
+ 4ba:	d2 1e       	adc	r13, r18
+ 4bc:	2f e0       	ldi	r18, 0x0F	; 15
+ 4be:	e2 1e       	adc	r14, r18
+ 4c0:	f1 1c       	adc	r15, r1
+ 4c2:	80 e4       	ldi	r24, 0x40	; 64
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:153
+
+  /* If return time overflows */
+  if (return_time < delay_time)
+ 4c4:	c8 16       	cp	r12, r24
+ 4c6:	82 e4       	ldi	r24, 0x42	; 66
+ 4c8:	d8 06       	cpc	r13, r24
+ 4ca:	8f e0       	ldi	r24, 0x0F	; 15
+ 4cc:	e8 06       	cpc	r14, r24
+ 4ce:	f1 04       	cpc	r15, r1
+ 4d0:	30 f4       	brcc	.+12     	; 0x4de <__LOCK_REGION_LENGTH__+0xde>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:156
+  {
+    /* Wait until micros overflows */
+    while (micros() > return_time)
+ 4d2:	0c df       	rcall	.-488    	; 0x2ec <micros>
+ 4d4:	c6 16       	cp	r12, r22
+ 4d6:	d7 06       	cpc	r13, r23
+ 4d8:	e8 06       	cpc	r14, r24
+ 4da:	f9 06       	cpc	r15, r25
+ 4dc:	d0 f3       	brcs	.-12     	; 0x4d2 <__LOCK_REGION_LENGTH__+0xd2>
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/wiring.c:161
+      ;
+  }
+
+  /* Wait until return time */
+  while (micros() < return_time)
+ 4de:	06 df       	rcall	.-500    	; 0x2ec <micros>
+ 4e0:	6c 15       	cp	r22, r12
+ 4e2:	7d 05       	cpc	r23, r13
+ 4e4:	8e 05       	cpc	r24, r14
+ 4e6:	9f 05       	cpc	r25, r15
+ 4e8:	d0 f3       	brcs	.-12     	; 0x4de <__LOCK_REGION_LENGTH__+0xde>
+digitalWrite():
+ 4ea:	80 e0       	ldi	r24, 0x00	; 0
+ 4ec:	e2 de       	rcall	.-572    	; 0x2b2 <digitalWrite.part.2.constprop.5>
+main():
+ 4ee:	c0 e0       	ldi	r28, 0x00	; 0
+C:\Users\Siddhesh.Hadawale\Documents\ArduinoData\packages\MegaCoreX\hardware\megaavr\1.1.2\cores\coreX-corefiles/main.cpp:43
+  setup();
+
+  for (;;)
+  {
+    loop();
+    if (serialEventRun) serialEventRun();
+ 4f0:	d0 e0       	ldi	r29, 0x00	; 0
+ 4f2:	20 97       	sbiw	r28, 0x00	; 0
+ 4f4:	f1 f3       	breq	.-4      	; 0x4f2 <__LOCK_REGION_LENGTH__+0xf2>
+ 4f6:	0e 94 00 00 	call	0	; 0x0 <__TEXT_REGION_ORIGIN__>
+ 4fa:	fb cf       	rjmp	.-10     	; 0x4f2 <__LOCK_REGION_LENGTH__+0xf2>
+
+000004fc <__muluhisi3>:
+__muluhisi3():
+ 4fc:	09 d0       	rcall	.+18     	; 0x510 <__umulhisi3>
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:627
+ 4fe:	a5 9f       	mul	r26, r21
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:628
+ 500:	90 0d       	add	r25, r0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:629
+ 502:	b4 9f       	mul	r27, r20
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:630
+ 504:	90 0d       	add	r25, r0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:631
+ 506:	a4 9f       	mul	r26, r20
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:632
+ 508:	80 0d       	add	r24, r0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:633
+ 50a:	91 1d       	adc	r25, r1
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:634
+ 50c:	11 24       	eor	r1, r1
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:635
+ 50e:	08 95       	ret
+
+00000510 <__umulhisi3>:
+__umulhisi3():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:564
+ 510:	a2 9f       	mul	r26, r18
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:565
+ 512:	b0 01       	movw	r22, r0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:566
+ 514:	b3 9f       	mul	r27, r19
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:567
+ 516:	c0 01       	movw	r24, r0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:568
+ 518:	a3 9f       	mul	r26, r19
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:573
+ 51a:	70 0d       	add	r23, r0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:574
+ 51c:	81 1d       	adc	r24, r1
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:575
+ 51e:	11 24       	eor	r1, r1
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:576
+ 520:	91 1d       	adc	r25, r1
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:580
+ 522:	b2 9f       	mul	r27, r18
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:581
+ 524:	70 0d       	add	r23, r0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:582
+ 526:	81 1d       	adc	r24, r1
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:583
+ 528:	11 24       	eor	r1, r1
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:584
+ 52a:	91 1d       	adc	r25, r1
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:585
+ 52c:	08 95       	ret
+
+0000052e <_exit>:
+exit():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2278
+ 52e:	f8 94       	cli
+
+00000530 <__stop_program>:
+__stop_program():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avrxmega3/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2280
+ 530:	ff cf       	rjmp	.-2      	; 0x530 <__stop_program>
